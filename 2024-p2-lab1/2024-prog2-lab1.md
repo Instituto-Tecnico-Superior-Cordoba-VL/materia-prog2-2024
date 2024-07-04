@@ -52,12 +52,12 @@ Se les entregará dos archivos tareas.py y tareas.csv que un sistema de gestión
 
 **Nota**: Puede ser que necesiten implementar otros metodos ademas de los mencionados para cumplir con la tarea, por ejemplo buscar_tarea_id(), o contar_tareas, o contar tareas por categoria, les doy libertad en ese sentido.
 
-# Entregables:**
+# Entregables:
    - Código fuente comentado
    - Informe de análisis de algoritmos y optimización segun la estructura de informe
    - Planilla de autoevaluación completada (ver modelo mas abajo).
 
-## Criterios de evaluación:**
+## Criterios de evaluación:
 - Trabajo grupal, segun la tabla de autoevaluacion (disponible al final)
 - Trabajo en git, se mirará los commits de cada uno de los participantes del grupo
 - Correcta implementación de las funcionalidades básicas y avanzadas.
@@ -120,19 +120,26 @@ Apéndices
 
 ## Planilla de Autoevaluación
 
-| Tarea                              | Responsable(s)          | Valoración                                                                                       |
-|------------------------------------|-------------------------|-------------------------------------------------------------------------------------------------|
-| Comentar el código                 |                         |                                                                                                 |
-| Validación y control de entrada de usuario en el menu     |                         |                                                                                                 |
-| Control de división por cero       |                         |                                                                                                 |
-| Implementación de lista enlazada   |                         |                                                                                                 |
-| Funcionalidad básica del sistema   |                         |                                                                                                 |
-| Funcionalidades avanzadas          |                         |                                                                                                 |
-| Análisis y optimización            |                         |                                                                                                 |
-| Documentación del código           |                         |                                                                                                 |
-| Presentación del diagrama de flujo |                         |                                                                                                 |
-| Ejecución y presentación de la traza del programa |                         |                                                                                                 |
-| Revisión final y entrega           |                         |                                                                                                 |
-| Colaboración y trabajo en equipo   |                         |                                                                                                 |
-| Gestión del tiempo                 |                         |                                                                                                 |
-| Evaluación de la calidad del código|                         |                                                                                                 |
+## Planilla de Autoevaluación
+
+| Tarea                                            | Responsable(s)              | Valoración                                                                                                                                  |
+|--------------------------------------------------|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| Comentar el código                               | Ana, Juan                   | Ana y Juan trabajaron juntos para comentar el código. Ana se encargó de comentar las funciones principales, asegurando que cada una tuviera una explicación clara y concisa. Juan se enfocó en los detalles dentro de las funciones, pero omitió algunos comentarios en secciones menores. En conjunto, lograron una documentación bastante completa. |
+| Entender y explicar la estructura de datos       | Pedro, Ana                  | Pedro lideró la explicación de la estructura de datos en el informe, brindando una visión clara y detallada del funcionamiento de las listas enlazadas. Ana contribuyó con ejemplos visuales y diagramas que ayudaron a ilustrar el funcionamiento interno de la estructura. Juntos, proporcionaron una explicación integral y comprensible. |
+| Agregar validaciones                             | Juan, Ana                   | Juan implementó las validaciones básicas para asegurar que las tareas no se duplicaran y que no se intentara eliminar tareas inexistentes. Ana añadió mensajes de error detallados y mejoró la lógica de validación. Aunque encontraron algunos problemas iniciales, lograron resolverlos colaborativamente. |
+| Implementar marcar tarea como completada         | Pedro                       | Pedro implementó esta funcionalidad y se aseguró de que las tareas se actualizaran correctamente en el sistema. Además, añadió pruebas para verificar su funcionamiento. |
+| Implementar mostrar tareas pendientes            | Ana                         | Ana desarrolló esta funcionalidad y añadió una opción para filtrar por prioridad, lo que mejoró la eficiencia en la visualización de las tareas más urgentes. |
+| Implementar buscar tarea por descripción         | Juan                        | Juan implementó la funcionalidad de búsqueda, permitiendo a los usuarios encontrar tareas rápidamente. Aunque la búsqueda funcionaba bien, se discutieron mejoras para optimizar su eficiencia. |
+| Implementar mostrar tareas por descripción       | Pedro                       | Pedro extendió la funcionalidad de búsqueda para mostrar todas las tareas que contenían un texto específico en su descripción, asegurándose de manejar correctamente los casos de error. |
+| Generar informes de progreso                     | Ana, Juan                   | Ana y Juan colaboraron en la generación de informes. Ana diseñó el formato del informe, mientras que Juan implementó la lógica para generar los datos. Ambos se aseguraron de que los informes fueran claros y útiles para los usuarios. |
+| Calcular orden del método agregar_tarea          | Pedro                       | Pedro realizó un análisis detallado de la complejidad temporal del método `agregar_tarea`, explicando claramente cómo se alcanzó la eficiencia actual y sugiriendo posibles mejoras. |
+| Implementar contar_tareas_pendientes_cte         | Ana, Pedro                  | Ana y Pedro trabajaron juntos en esta implementación. Ana propuso la lógica inicial y Pedro optimizó el código para asegurar que la complejidad temporal fuera constante. |
+| Documentar el código fuente                      | Juan, Ana                   | Juan y Ana colaboraron para documentar el código fuente. Juan se encargó de la documentación técnica detallada, mientras que Ana se aseguró de que los comentarios fueran claros y accesibles para otros desarrolladores. |
+| Redactar el informe de análisis de algoritmos    | Pedro, Ana                  | Pedro escribió la mayor parte del informe, detallando el análisis de algoritmos y optimización. Ana revisó el informe y añadió ejemplos prácticos para ilustrar los conceptos. |
+| Trabajar en equipo y colaborar efectivamente     | Ana, Juan, Pedro            | Todos los miembros del equipo trabajaron en estrecha colaboración, organizando reuniones regulares para discutir el progreso y resolver problemas. Se apoyaron mutuamente y compartieron responsabilidades de manera equitativa. |
+| Resolución de conflictos y gestión del tiempo    | Ana, Juan, Pedro            | El equipo enfrentó algunos conflictos de horario, pero lograron resolverlos mediante una mejor planificación y comunicación. Ana propuso una herramienta de gestión de tareas que mejoró la organización del equipo. |
+| Presentación final del proyecto                  | Ana, Juan, Pedro            | La presentación final fue realizada por todo el equipo. Ana se encargó de la introducción, Juan presentó la parte técnica y Pedro concluyó con los resultados y conclusiones. Recibieron buenos comentarios por su claridad y cohesión. |
+| Revisión final y entrega                         | Ana, Juan, Pedro            | Antes de la entrega, todo el equipo revisó el proyecto para asegurarse de que todos los requisitos se cumplieran y que no hubiera errores. Ajustaron detalles finales y realizaron pruebas adicionales. |
+| Colaboración y trabajo en equipo                 | Ana, Juan, Pedro            | La colaboración fue excelente, con todos los miembros contribuyendo activamente y apoyándose mutuamente. Mantuvieron una comunicación abierta y resolvieron problemas juntos. |
+| Gestión del tiempo                               | Ana, Juan, Pedro            | Aunque enfrentaron algunos desafíos con el tiempo, mejoraron su gestión a lo largo del proyecto mediante la planificación semanal y el uso de herramientas de seguimiento de tareas. |
+| Evaluación de la calidad del código              | Ana, Juan, Pedro            | El equipo se centró en mantener un alto estándar de calidad del código, realizando revisiones de código entre pares y asegurando que todos los métodos estuvieran bien documentados y optimizados. |
