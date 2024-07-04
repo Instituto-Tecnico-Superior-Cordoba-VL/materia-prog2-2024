@@ -58,6 +58,8 @@ Se les entregará dos archivos tareas.py y tareas.csv que un sistema de gestión
    - Planilla de autoevaluación completada (ver modelo mas abajo).
 
 ## Criterios de evaluación:**
+- Trabajo grupal, segun la tabla de autoevaluacion (disponible al final)
+- Trabajo en git, se mirará los commits de cada uno de los participantes del grupo
 - Correcta implementación de las funcionalidades básicas y avanzadas.
 - Claridad y calidad de los comentarios y la documentación del código.
 - Calidad y claridad del informe de análisis de algoritmos y optimización.
